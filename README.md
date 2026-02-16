@@ -1,6 +1,6 @@
 # DayRun
 
-## DayRun is a CLI-tool that enables the user to take focused sessions doing tasks without any disturbances. This makes the user does their tasks faster and better by using some of dayrun's features like Do-Not-Disturb, open apps/URLs, run commands or tmux panes, notifications, session logging.
+DayRun is a CLI-tool that enables the user to take focused sessions doing tasks without any disturbances. This makes the user does their tasks faster and better by using some of dayrun's features like Do-Not-Disturb, open apps/URLs, run commands or tmux panes, notifications, session logging.
 
 
 ### Features
@@ -24,36 +24,48 @@
 ``
 git clone https://github.com/InsaneHunterCTF/DayRun.git
 ``
+
 ``
 cd dayrun
 ``
+
 Recommended:
+
 ``
 python3 -m venv venv
 ``
+
 ``
 source venv/bin/activate
 ``
+
 ``
 pip install --upgrade pip
 ``
+
 ``
 pip install click pyyaml
 ``
+
 Recommended:
 for Linux:
+
 ``
 sudo apt update
 ``
+
 ``
 sudo apt install -y libnotify-bin tmux
 ``
+
 for macOS:
+
 ``
 brew install tmux
 ``
 
 ## Usage
+
 ``
 python3 dayrun.py --help
 ``
