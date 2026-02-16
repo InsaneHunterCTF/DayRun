@@ -29,8 +29,6 @@ git clone https://github.com/InsaneHunterCTF/DayRun.git
 cd dayrun
 ``
 
-Recommended:
-
 ``
 python3 -m venv venv
 ``
@@ -48,6 +46,7 @@ pip install click pyyaml
 ``
 
 Recommended:
+
 for Linux:
 
 ``
